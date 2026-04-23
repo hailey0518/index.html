@@ -1,0 +1,84 @@
+.header {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(227,145,159);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li a:hover {
+  background-color: rgb(242,192,189);
+}
+article {
+    padding: 10px;
+    margin: 10px;
+    background: whitesmoke;
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    }
+section {
+    display: flex;
+    background: rgb(227,145,159);
+    font-family: 'Courier New', Courier, monospace;
+}
+.button {
+  border: none;
+  color: white;
+  background: rgb(227,145,159);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+.button:hover {
+  background-color: rgb(242,192,189)
+}
+footer {
+  background: rgb(227,145,159);
+  color: white;
+   font-family: 'Courier New', Courier, monospace;
+   
+}
+p {
+    color:rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{ font-family:'Times New Roman', Times, serif;
+}
+h3 { font-family:'Times New Roman', Times, serif
+}
+h4 { font-family:'Times New Roman', Times, serif
+}
